@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'sprockets', github: 'rubemz/sprockets', branch: 'fix/atomic-write'
+# with fix
+#gem 'sprockets', github: 'rubemz/sprockets', branch: 'fix/atomic-write'
+gem 'sprockets'
 gem 'parallel'
 gem 'activesupport'
