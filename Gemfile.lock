@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/rubemz/sprockets.git
-  revision: 7c42bce384d0dcd71516dc78646432863ad66107
+  revision: ffe2341cf1bc24fe068abaa14d2872fda56dedea
   branch: fix/atomic-write
   specs:
     sprockets (2.12.0)
