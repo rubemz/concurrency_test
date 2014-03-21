@@ -1,6 +1,6 @@
 require 'parallel'
 
-Parallel.in_processes(4) do |_|
+Parallel.in_processes(8) do |_|
   # uncomment to fix
   #require 'rubygems'
   #require 'bundler/setup'
