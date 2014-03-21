@@ -1,8 +1,8 @@
-#require 'rubygems'
-#require 'bundler/setup'
 require 'parallel'
 
-Parallel.in_processes(8) do |_|
+Parallel.in_processes(4) do |_|
+  require 'rubygems'
+  require 'bundler/setup'
   require 'sprockets'
   environment = Sprockets::Environment.new
   environment.append_path '/tmp/nuts/javascripts'
