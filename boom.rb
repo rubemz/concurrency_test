@@ -1,5 +1,7 @@
 require 'parallel'
+require 'fileutils'
 
+FileUtils.rm_rf("/tmp/sprockets")
 Parallel.in_processes(8) do |_|
   # uncomment to fix
   #require 'rubygems'
