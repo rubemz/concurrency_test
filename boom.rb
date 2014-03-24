@@ -9,5 +9,7 @@ Parallel.in_processes(8) do |_|
   environment = Sprockets::Environment.new
   environment.append_path File.join(File.dirname(__FILE__), "javascripts")
   environment.cache = Sprockets::Cache::FileStore.new("/tmp")
-  puts "boom" if environment['application.js'] == nil
+  puts "boom - the generated js is empty :(" if environment['application.js'] == nil
 end
+
+puts "Done"
